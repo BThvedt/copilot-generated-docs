@@ -1,0 +1,67 @@
+site_name: MHEC
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Datetime Range Timezone US: 
+    - Overview: datetime_range_timezone_us/overview.md  
+    - FieldFormatter: 
+      - Datetime Range Timezone US: datetime_range_timezone_us/datetime_range_timezone_us.md
+      - Date Range Timezone US Badge: datetime_range_timezone_us/date_range_timezone_us_badge.md
+    - FieldWidget: 
+      - Date Range Timezone US: datetime_range_timezone_us/date_range_timezone_us_widget.md
+    - Templates:
+      - Datetime Range Timezone US Badge: datetime_range_timezone_us/datetime_range_timezone_us_badge_template.md
+  - Datetime Range Views:
+    - Overview: datetime_range_views/overview.md 
+    - Views: 
+      - datetime_range_views/datetime_range_views.views.inc.md
+  - Editor Link Classify:
+    - Overview: editor_link_classify/overview.md
+    - Module: editor_link_classify/module.md
+    - Readme: editor_link_classify/readme.md
+    - Attribute: 
+      - Button: editor_link_classify/button.md
+  - Mhec Commissioner: 
+    - Overview: mhec_commissioner/overview.md
+    - EventSubscriber:
+      - RedirectSubscriber: mhec_commissioner/redirect_subscriber.md
+  - Mhec Manager: 
+    - Overview: mhec_manager/overview.md
+    - Module: mhec_manager/module.md
+  - Mhec Person Import: 
+    - Overview: mhec_person_import/overview.md
+    - Person Importer: 
+      - PersonImporter: mhec_person_import/mhec_person_importer.md 
+      - PersonImporterInterface: mhec_person_import/mhec_person_importer_interface.md 
+    - Form: 
+      - PersonImportForm: mhec_person_import/mhec_person_import_form.md
+  - Mhec Resource: 
+    - Overview: mhec_resource/overview.md
+    - Module: mhec_resource/module.md
+  - Mhec Search:
+    - Overview: mhec_search/overview.md
+    - js: 
+      - mhec_search: mhec_search/mhec_search.js.md
+    - Module: mhec_search/mhec_search.module.md
+  - Mhec States: 
+    - Overview: mhec_states/overview.md
+    - Form: 
+      - MhStatesForm: mhec_states/mh_states_form.md
+    - js: 
+      - mhec_states_select: mhec_states/mhec_states_select.js.md
+  - Mhec Webforms: 
+    - Overview: mhec_webforms/overview.md
+    - WebformHandler:
+      - SetNameHandeler: mhec_webforms/set_name_handler.md
+  - Site Settings: 
+    - Overview: site_settings/overview.md
+    - Blocks: site_settings/blocks.md
+    - Form: site_settings/form.md 
+    - SiteSettings: site_settings/site_settings.md
+    - SiteSettingsInterface: site_settings/site_settings_interface.md 
+    - Module: site_settings/module.md
+plugins:
+  - search
+  - autorefs
+  - awesome-pages
